@@ -1,0 +1,54 @@
+* {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: black;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+/* CSS  horizontal_flip ************/
+.horizontal_flip {
+  width: 100%;
+  /* background-color: cyan; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.horizontal_flip img {
+  width: 45%;
+  border-radius: 20px;
+}
+.horizontal_flip img:hover {
+  /* width: 45.5%; */
+  transform: rotateY(180deg);
+  transition-duration: 2s;
+}
+
+/* CSS  vertical_flip *************/
+
+.vertical_flip {
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.vertical_flip img {
+  width: 45%;
+  border-radius: 20px;
+}
+.vertical_flip img:hover{
+  transform: rotateX(180deg);
+  transition-duration: 2s;
+}
